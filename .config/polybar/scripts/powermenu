@@ -1,0 +1,18 @@
+#! /bin/sh
+
+#Script from ericmurphy's video
+
+#rofi -show p -modi p:rofi-power-menu \
+#  -theme Paper \
+#  -font "JetBrains Mono NF 16" \
+#  -width 20 \
+#  -lines 6
+chosen=$(printf "  Power Off\n  Restart\n  Lock" | rofi -dmenu -i)
+
+case "$chosen" in
+    "  Power Off") poweroff ;;
+    "Sleep") sleep ;;
+    "  Restart") reboot ;;
+    "  Lock") slock ;;
+    *) exit 1 ;;
+esac
