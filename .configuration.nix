@@ -65,7 +65,8 @@
 
   # Configure keymap in X11
   services.xserver = {
-    layout = "us,pl";
+    layout = "pl,us";
+    xkbModel = "asus_laptop";
     xkbVariant = "";
   };
 
@@ -148,6 +149,8 @@
     bat
     spotdl
     yt-dlp
+    python311Packages.pillow
+    python3
 ];
 
   programs.slock.enable = true;
