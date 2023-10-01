@@ -120,6 +120,10 @@ alias garbage="sudo nix-collect-garbage --delete-older-than 14d; sudo nixos-rebu
 alias edit="sudo nvim configuration.nix"
 alias nixos="cd /etc/nixos"
 alias preview="kitty +kitten icat"
+alias wallpapers="cd /home/peat/Pictures/wallpapers"
+alias programing="cd /home/peat/Documents/programing"
+alias downloads="cd /home/peat/Downloads"
+alias dotfiles="cd /home/peat/.config"
 
 # Basic auto/tab complete:
 autoload -U compinit

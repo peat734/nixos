@@ -149,8 +149,11 @@
     bat
     spotdl
     yt-dlp
-    python311Packages.pillow
     python3
+    python310Packages.pillow
+    papirus-icon-theme
+    papirus-folders
+    xfce.tumbler
 ];
 
   programs.slock.enable = true;
