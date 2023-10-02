@@ -154,6 +154,7 @@
     papirus-icon-theme
     papirus-folders
     xfce.tumbler
+    notion-app-enhanced
 ];
 
   programs.slock.enable = true;
