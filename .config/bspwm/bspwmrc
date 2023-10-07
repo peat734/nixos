@@ -67,6 +67,9 @@ dunst -config $HOME/.config/dunst/dunstrc &
 # Launch keybindings daemon
 sxhkd &
 
+#change to 60hz from 144hz (better batery life)
+xrandr -r 60
+
 # Enable power management
 xfce4-power-manager &
 

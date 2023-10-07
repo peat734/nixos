@@ -11,7 +11,7 @@
 
 # Terminal (alacritty)
 super + Return
-	kitty
+	st
 #urxvt
 
 # Terminal (floating)

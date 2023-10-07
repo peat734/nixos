@@ -115,7 +115,7 @@ export PATH=/home/peat/.local/bin:$PATH
 # Aliases
 alias kot="cat"
 alias update="nixos-rebuild switch --upgrade"
-alias rebuild="sudo nixos-rebuild switch; sudo cp configuration.nix /home/peat/.configuration.nix"
+alias rebuild="sudo nixos-rebuild switch; sudo cp -r /etc/nixos/* /home/peat/NixOS"
 alias garbage="sudo nix-collect-garbage --delete-older-than 7d; sudo nixos-rebuild boot"
 alias edit="sudo nvim configuration.nix"
 alias nixos="cd /etc/nixos"
