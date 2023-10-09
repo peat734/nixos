@@ -1,4 +1,4 @@
-#NixOS dotfiles
+# NixOS dotfiles
 These are my configuration files and NixOS configuration
 ![Rice](./Pictures/rices/rice.png)
 **STUFF THAT I USE**:
@@ -10,7 +10,10 @@ These are my configuration files and NixOS configuration
 - **Compositor**: [Picom](https://github.com/ibhagwan/picom)
 - **Application Launcher**: [Rofi](https://github.com/davatorium/rofi)
 - **File Manager**: [Thunar](https://github.com/xfce-mirror/thunar)
+- **Color Scheme** [Everforest](https://github.com/sainnhe/everforest)
 - **Icons**: [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 - **GTK THEME**: [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 - **Editor**: [Neovim with nvchad](https://nvchad.com/)
 - **Music Player**: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
+
+![Rice2](./Pictures/rices/rice-pfetch.png)
