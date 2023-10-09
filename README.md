@@ -16,4 +16,4 @@ These are my configuration files and NixOS configuration
 - **Editor**: [Neovim with nvchad](https://nvchad.com/)
 - **Music Player**: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 
-![Rice2](./Pictures/rices/rice-pfetch.png)
+![Rice2](./Pictures/rices/rice2.png)
