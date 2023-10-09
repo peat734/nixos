@@ -21,6 +21,7 @@
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
+
   # Enable networking
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.backend= "iwd";
@@ -53,6 +54,7 @@
   environment.localBinInPath = true;
 
   # Enable the X11 windowing system.
+
   services.xserver.enable = true;
   services.xserver.displayManager.defaultSession = "none+bspwm";
 
@@ -163,14 +165,29 @@
     xclip
     ripgrep
     lxappearance
-    #(inputs.st.packages."${system}".st-snazzy.override{
-    #conf = /home/peat/.config/st/config.h;
-    #})
-    inputs.st.packages."${system}".st-snazzy
+    #pkgs.st
+    (pkgs.st.overrideAttrs (oldAttrs: rec {
+    src = fetchFromGitHub {
+      owner = "siduck";
+      repo = "st";
+      rev = "b42b7a8a0970b0e4aec13699d005d7ca06791df0";
+      sha256 = "iVIyj8Hp4Ed6FUrPHK1RMgCRPcI2alRFi9xdficYPGQ=";
+    };
+    #Make sure you include whatever dependencies the fork needs to build properly!
+    buildInputs = oldAttrs.buildInputs ++ [ harfbuzz pkgconfig xorg.libX11 xorg.libXft fontconfig gd glib ];
+    configFile = writeText "config.def.h" (builtins.readFile /home/peat/.config/st/st-config.h);
+    postPatch = "${oldAttrs.postPatch}\n cp ${configFile} config.def.h";
+    }))
+    p7zip
+    libreoffice
+    ueberzugpp
+    cbonsai
+    gtk4
+    sassc
+    gnome.nautilus
 ];
 
   programs.slock.enable = true;
-
     programs.xss-lock = {
     enable = true;
     lockerCommand = "/run/wrappers/bin/slock";

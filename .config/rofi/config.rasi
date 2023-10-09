@@ -5,7 +5,7 @@ configuration {
   display-window: "Windows:";
   drun-display-format: "{icon} {name}";
   show-icons: true;
-  icon-theme: "Fluent-yellow-dark";
+  icon-theme: "WhiteSur-green-dark";
 
   timeout {
       action: "kb-cancel";
