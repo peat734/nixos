@@ -185,6 +185,7 @@
     gtk4
     sassc
     gnome.nautilus
+    pfetch
 ];
 
   programs.slock.enable = true;
