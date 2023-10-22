@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #eval "$(starship init zsh)"
 clear
-./shell-color-scripts/colorscript.sh -e panes
+colorscript -e panes
 # Enable Colors and promt
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
@@ -114,9 +114,9 @@ HISTFILE=~/.cache/zsh/history
 export PATH=/home/peat/.local/bin:$PATH
 # Aliases
 alias kot="cat"
-alias update="nixos-rebuild switch --upgrade"
+alias update="sudo nixos-rebuild --impure switch --upgrade"
 alias rebuild="sudo nixos-rebuild --impure switch; sudo cp -r /etc/nixos/* /home/peat/NixOS"
-alias garbage="sudo nix-collect-garbage --delete-older-than 7d; sudo nixos-rebuild boot"
+alias garbage="sudo nix-collect-garbage --delete-older-than 7d; sudo nixos-rebuild --impure boot"
 alias edit="sudo nvim configuration.nix"
 alias nixos="cd /etc/nixos"
 alias preview="kitty +kitten icat"
@@ -124,6 +124,7 @@ alias wallpapers="cd /home/peat/Pictures/wallpapers"
 alias programing="cd /home/peat/Documents/programing"
 alias downloads="cd /home/peat/Downloads"
 alias dotfiles="cd /home/peat/.config"
+alias spotify="spotifyd; spt"
 
 # Basic auto/tab complete:
 autoload -U compinit

@@ -7,7 +7,7 @@
  */
 static char *font = "JetBrainsMono Nerd Font :pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = { "JetBrainsMono Nerd Font :pixelsize=15:antialias=true:autohint=true" };
-static int borderpx = 6;
+static int borderpx = 15;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -114,7 +114,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -165,7 +165,7 @@ unsigned int defaultrcs = 257;
  * 7: Blinking st cursor
  * 8: Steady st cursor
  */
-static unsigned int cursorshape = 1;
+static unsigned int cursorshape = 3;
 
 /*
  * Default columns and rows numbers

@@ -95,6 +95,19 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
+  environment.sessionVariables = rec {
+    XDG_CACHE_HOME  = "$HOME/.cache";
+    XDG_CONFIG_HOME = "$HOME/.config";
+    XDG_DATA_HOME   = "$HOME/.local/share";
+    XDG_STATE_HOME  = "$HOME/.local/state";
+
+    # Not officially in the specification
+    XDG_BIN_HOME    = "$HOME/.local/bin";
+    PATH = [ 
+      "${XDG_BIN_HOME}"
+    ];
+  };
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.peat = {
     isNormalUser = true;
@@ -186,6 +199,12 @@
     sassc
     gnome.nautilus
     pfetch
+    go-sct
+    wiki-tui
+    spotify-tui
+    spotifyd
+    jq
+    bc
 ];
 
   programs.slock.enable = true;
