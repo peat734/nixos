@@ -17,4 +17,4 @@ These are my configuration files and NixOS configuration
 - **Music Player**: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 
 ![Rice2](./Pictures/rices/rice_24_10_2023_2.png)
-![Rice3](./Pictures/rices/rice_24_10_2023_3.png)
+![Rice3](./Pictures/rices/rice_24_10_2023_4.png)
