@@ -1,6 +1,6 @@
 # NixOS dotfiles
 These are my configuration files and NixOS configuration
-![Rice](./Pictures/rices/rice_22_10_2023.png)
+![Rice](./Pictures/rices/rice_24_10_2023.png)
 **STUFF THAT I USE**:
 
 - **OS**: [NixOS 23.05 (stable)](https://nixos.org/)
@@ -16,4 +16,5 @@ These are my configuration files and NixOS configuration
 - **Editor**: [Neovim with nvchad](https://nvchad.com/)
 - **Music Player**: [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)
 
-![Rice2](./Pictures/rices/rice_22_10_2023_2.png)
+![Rice2](./Pictures/rices/rice_24_10_2023_2.png)
+![Rice3](./Pictures/rices/rice_24_10_2023_3.png)
