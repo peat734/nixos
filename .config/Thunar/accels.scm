@@ -1,10 +1,11 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-mtime" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/restore" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/undo" "<Primary>z")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-all-files" "<Primary>a")
+; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-name" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-dtime" "")
 ; (gtk_accel_path "<Actions>/ThunarStatusBar/toggle-last-modified" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "")
@@ -39,7 +40,6 @@
 ; (gtk_accel_path "<Actions>/ThunarActionManager/copy" "<Primary>c")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/properties" "<Alt>Return")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/back" "<Alt>Left")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/98c4037da737ab482ba44cb7d61371f7" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/sendto-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/9ce5adf5c66cc71ac1cc8b4587f638ee" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/open-location" "")
@@ -116,7 +116,7 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-size" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/arrange-items-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/show-hidden" "<Primary>h")
-; (gtk_accel_path "<Actions>/ThunarStandardView/sort-by-name" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/98c4037da737ab482ba44cb7d61371f7" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-reset" "<Primary>KP_0")
 ; (gtk_accel_path "<Actions>/ThunarStatusBar/toggle-filetype" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/detach-tab" "")

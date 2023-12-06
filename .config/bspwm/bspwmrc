@@ -1,21 +1,30 @@
-#! /bin/sh
+#!/usr/bin/env zsh
 
 # Restore wallpaper
 ~/.fehbg
 pgrep -x sxhkd > /dev/null || sxhkd &
-/home/peat/.config/polybar/launch.sh
+#~/.config/polybar/launch.sh
 nmcli device wifi connect khicon5G
+polybaren
 #$HOME/.config/eww/bar/launch.sh
 
-workspaces() {
-	name=1
-	for monitor in `bspc query -M`; do
-		#bspc monitor ${monitor} -n "$name" -d '一' '二' '三' '四' '五' '六' '七'
-		bspc monitor ${monitor} -n "$name" -d I II III IV V VI VII VIII IX X
-		let name++
-	done
-}
-workspaces
+#workspaces() {
+#	name=1
+#	for monitor in `bspc query -M`; do
+#		#bspc monitor ${monitor} -n "$name" -d '一' '二' '三' '四' '五' '六' '七'
+#		bspc monitor ${monitor} -n "$name" -d I II III IV V VI VII VIII IX X
+#		let name++
+#	done
+#}
+#workspaces
+
+if [[ $(xrandr -q | grep 'DP-1-0 connected') ]]; then
+    #xrandr --output DP-1-0 --primary --mode 1920x1080 --rate 75
+    xrandr --output DP-1-0 --mode 1920x1080 -r 75
+    bspc monitor eDP -d I II III IV V VI VII VIII IX X
+else
+    bspc monitor eDP -d I II III IV V VI VII VIII IX X
+fi
 
 bspc config border_width         3
 bspc config window_gap           10
@@ -54,11 +63,14 @@ declare -a office=(Code terminal)
 for i in ${office[@]}; do
     bspc rule -a $i desktop='^4' follow=on focus=on; done
 
+bspc rule -a xdg-desktop-portal-gnome state=floating
+bspc rule -a gnome-calculator state=floating
 
 ## Autostart
 
 # Kill if already running
 killall -9 picom sxhkd dunst xfce4-power-manager ksuperkey eww oneko sct 
+
 
 
 # Launch notification daemon
@@ -68,7 +80,8 @@ dunst -config $HOME/.config/dunst/dunstrc &
 sxhkd &
 
 #change to 60hz from 144hz (better batery life)
-xrandr -r 60
+#xrandr -r 60
+
 
 # Enable power management
 xfce4-power-manager &

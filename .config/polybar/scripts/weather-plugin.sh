@@ -325,5 +325,5 @@ if [ $ERROR -eq 0 ]; then
     setIcons
     outputCompact
 else
-    echo "gówno nie działa"
+    echo " "
 fi

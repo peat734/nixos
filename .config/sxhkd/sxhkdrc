@@ -20,7 +20,7 @@ super + shift + Return
 	#bspc rule -a kitty -o state=floating follow=on center=true rectangle=1600x1000+0-100 && kitty
 
 # Open application menu
-super + m
+ctrl + s
 #    sh $HOME/.config/rofi/scripts/appsmenu.sh
      rofi -modi drun,run -show drun 
 #alt tab
@@ -47,8 +47,10 @@ ctrl + alt + l
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,e,d,}
-	{thunar,firefox,code,discord}
+super + shift + {f,w,e,}
+	{thunar,firefox,code}
+super + shift + d 
+    flatpak run com.discordapp.Discord
 
 ##---------- System Keys ----------##
 

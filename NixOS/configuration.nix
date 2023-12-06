@@ -71,8 +71,8 @@ in
   services.xserver.displayManager.defaultSession = "none+bspwm";
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
   services.xserver.windowManager.bspwm.enable = true;
   services.xserver.windowManager.bspwm.configFile = "/home/peat/.config/bspwm/bspwmrc";
   services.xserver.windowManager.bspwm.sxhkd.configFile = "/home/peat/.config/sxhkd/sxkdrc";
@@ -103,6 +103,10 @@ in
     # no need to redefine it in your config for now)
     #media-session.enable = true;
   };
+  #bluetooth
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  services.blueman.enable = true;
 
   # Enable touchpad support (enabled default in most desktopManager).
   services.xserver.libinput.enable = true;
@@ -117,6 +121,7 @@ in
     XDG_BIN_HOME    = "$HOME/.local/bin";
     PATH = [ 
       "${XDG_BIN_HOME}"
+      "/home/peat/.cargo/bin"
     ];
   };
 
@@ -134,7 +139,18 @@ in
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+  services.flatpak.enable = true;
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nixpkgs.config.permittedInsecurePackages = [
+                "openssl-1.1.1w"
+              ];
+
+ 
+  #auto update
+  system.autoUpgrade.enable = true;
+  system.autoUpgrade.allowReboot = true;
+
+
 
   # Enable OpenGL
   hardware.opengl = {
@@ -227,9 +243,9 @@ in
     xfce.tumbler
     notion-app-enhanced
     vencord
-    (pkgs.discord.override{
-    withVencord = true;
-    })
+    #(pkgs.discord.override{
+    #withVencord = false;
+    #})
     xclip
     ripgrep
     lxappearance
@@ -261,7 +277,18 @@ in
     jq
     bc
     nvidia-offload
-    eza
+    minecraft
+    killall
+    eww
+    cargo
+    rustup
+    cargo-auditable-cargo-wrapper
+    whatsapp-for-linux
+    gnome.gnome-tweaks  
+    flatpak
+    gnome.gnome-software
+    sublime4
+    clang
 ];
 
   programs.slock.enable = true;
@@ -284,6 +311,7 @@ in
   	fonts = with pkgs; [
     	  maple-mono-SC-NF
 	  maple-mono
+	  terminus_font
   	];
   };
 

@@ -125,6 +125,8 @@ alias programing="cd /home/peat/Documents/programing"
 alias downloads="cd /home/peat/Downloads"
 alias dotfiles="cd /home/peat/.config"
 alias spotify="spotifyd; spt"
+alias odpal="~/.config/polybar/launch.sh"
+alias oi="cd ~/Documents/programing/OI/XXXI/etap1"
 
 # Basic auto/tab complete:
 autoload -U compinit
