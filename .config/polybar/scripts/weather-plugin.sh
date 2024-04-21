@@ -281,7 +281,7 @@ function setIcons {
         WIND="$WIND |"
     fi
     if [ "$UNITS" = "metric" ]; then
-        TEMP_ICON="󰔄"
+        TEMP_ICON="°C"
     elif [ "$UNITS" = "imperial" ]; then
         TEMP_ICON="󰔅"
     else

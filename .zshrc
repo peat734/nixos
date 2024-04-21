@@ -106,6 +106,9 @@ colorscript -e panes
 # Enable Colors and promt
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+set -o PROMPT_SUBST
+RPS1='$(mommy -1 -s $?)'
+
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -127,6 +130,7 @@ alias dotfiles="cd /home/peat/.config"
 alias spotify="spotifyd; spt"
 alias odpal="~/.config/polybar/launch.sh"
 alias oi="cd ~/Documents/programing/OI/XXXI/etap1"
+alias projekt="cd ~/Documents/programing/strona/skibidifortnajt-frontend/"
 
 # Basic auto/tab complete:
 autoload -U compinit

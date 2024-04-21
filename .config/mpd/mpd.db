@@ -1,6 +1,6 @@
 info_begin
 format: 2
-mpd_version: 0.23.12
+mpd_version: 0.23.14
 fs_charset: UTF-8
 tag: Artist
 tag: ArtistSort
@@ -33,6 +33,74 @@ tag: MUSICBRAINZ_TRACKID
 tag: MUSICBRAINZ_RELEASETRACKID
 tag: MUSICBRAINZ_WORKID
 info_end
+directory: kpop
+mtime: 1701886112
+begin: kpop
+song_begin: LE SSERAFIM - ANTIFRAGILE.mp3
+Time: 184.488000
+Artist: LE SSERAFIM
+AlbumArtist: LE SSERAFIM
+Title: ANTIFRAGILE
+Album: ANTIFRAGILE
+Track: 2
+Date: 2022-10-17
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886071
+song_end
+song_begin: LE SSERAFIM - No Celestial.mp3
+Time: 166.872000
+Artist: LE SSERAFIM
+AlbumArtist: LE SSERAFIM
+Title: No Celestial
+Album: ANTIFRAGILE
+Track: 4
+Date: 2022-10-17
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886075
+song_end
+song_begin: NewJeans - Ditto.mp3
+Time: 185.544000
+Artist: NewJeans
+AlbumArtist: NewJeans
+Title: Ditto
+Album: Ditto
+Track: 1
+Date: 2022-12-19
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886035
+song_end
+song_begin: aespa - Drama.mp3
+Time: 215.016000
+Artist: aespa
+AlbumArtist: aespa
+Title: Drama
+Album: Drama - The 4th Mini Album
+Track: 1
+Date: 2023-11-10
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886010
+song_end
+song_begin: NMIXX - Love Me Like This.mp3
+Time: 188.760000
+Artist: NMIXX
+AlbumArtist: NMIXX
+Title: Love Me Like This
+Album: expérgo
+Track: 2
+Date: 2023-03-20
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886087
+song_end
 song_begin: League of Legends, NewJeans - GODS.mp3
 Time: 220.920000
 Artist: League of Legends/NewJeans
@@ -44,5 +112,1728 @@ Date: 2023-10-04
 Genre: Speedrun
 Disc: 1
 Format: 48000:24:2
-mtime: 1696433978
+mtime: 1701886010
 song_end
+song_begin: (G)I-DLE - I Want That.mp3
+Time: 171.696000
+Artist: (G)I-DLE
+AlbumArtist: (G)I-DLE
+Title: I Want That
+Album: HEAT
+Track: 2
+Date: 2023-10-05
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886048
+song_end
+song_begin: (G)I-DLE - Eyes Roll.mp3
+Time: 197.712000
+Artist: (G)I-DLE
+AlbumArtist: (G)I-DLE
+Title: Eyes Roll
+Album: HEAT
+Track: 3
+Date: 2023-10-05
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886051
+song_end
+song_begin: (G)I-DLE - MY BAG.mp3
+Time: 160.560000
+Artist: (G)I-DLE
+AlbumArtist: (G)I-DLE
+Title: MY BAG
+Album: I NEVER DIE
+Track: 8
+Date: 2022-03-14
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886058
+song_end
+song_begin: IVE - Baddie.mp3
+Time: 154.392000
+Artist: IVE
+AlbumArtist: IVE
+Title: Baddie
+Album: I'VE MINE
+Track: 2
+Date: 2023-10-13
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886046
+song_end
+song_begin: KISS OF LIFE - Shhh.mp3
+Time: 182.280000
+Artist: KISS OF LIFE
+AlbumArtist: KISS OF LIFE
+Title: Shhh
+Album: KISS OF LIFE
+Track: 1
+Date: 2023-07-05
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886085
+song_end
+song_begin: IVE - LOVE DIVE.mp3
+Time: 177.216000
+Artist: IVE
+AlbumArtist: IVE
+Title: LOVE DIVE
+Album: LOVE DIVE
+Track: 1
+Date: 2022-04-05
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886090
+song_end
+song_begin: YOUNG POSSE - POSSE UP!.mp3
+Time: 138.792000
+Artist: YOUNG POSSE
+AlbumArtist: YOUNG POSSE
+Title: POSSE UP!
+Album: MACARONI CHEESE EP
+Track: 1
+Date: 2023-10-18
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886011
+song_end
+song_begin: YOUNG POSSE - MACARONI CHEESE.mp3
+Time: 145.584000
+Artist: YOUNG POSSE
+AlbumArtist: YOUNG POSSE
+Title: MACARONI CHEESE
+Album: MACARONI CHEESE EP
+Track: 2
+Date: 2023-10-18
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886012
+song_end
+song_begin: aespa - Spicy.mp3
+Time: 197.064000
+Artist: aespa
+AlbumArtist: aespa
+Title: Spicy
+Album: MY WORLD - The 3rd Mini Album
+Track: 2
+Date: 2023-05-08
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886024
+song_end
+song_begin: NewJeans - OMG.mp3
+Time: 212.280000
+Artist: NewJeans
+AlbumArtist: NewJeans
+Title: OMG
+Album: NewJeans 'OMG'
+Track: 1
+Date: 2023-01-02
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886072
+song_end
+song_begin: NewJeans - New Jeans.mp3
+Time: 109.032000
+Artist: NewJeans
+AlbumArtist: NewJeans
+Title: New Jeans
+Album: NewJeans 'Super Shy'
+Track: 1
+Date: 2023-07-07
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886023
+song_end
+song_begin: NewJeans - Super Shy.mp3
+Time: 154.704000
+Artist: NewJeans
+AlbumArtist: NewJeans
+Title: Super Shy
+Album: NewJeans 'Super Shy'
+Track: 2
+Date: 2023-07-07
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886026
+song_end
+song_begin: NewJeans - ETA.mp3
+Time: 151.416000
+Artist: NewJeans
+AlbumArtist: NewJeans
+Title: ETA
+Album: NewJeans 2nd EP 'Get Up'
+Track: 3
+Date: 2023-07-21
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886086
+song_end
+song_begin: IVE - Off The Record.mp3
+Time: 188.760000
+Artist: IVE
+AlbumArtist: IVE
+Title: Off The Record
+Album: Off The Record
+Track: 1
+Date: 2023-10-06
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886039
+song_end
+song_begin: LE SSERAFIM - Perfect Night.mp3
+Time: 159.120000
+Artist: LE SSERAFIM
+AlbumArtist: LE SSERAFIM
+Title: Perfect Night
+Album: Perfect Night
+Track: 1
+Date: 2023-10-27
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886036
+song_end
+song_begin: LE SSERAFIM - UNFORGIVEN (feat. Nile Rodgers).mp3
+Time: 182.184000
+Artist: LE SSERAFIM/Nile Rodgers
+AlbumArtist: LE SSERAFIM
+Title: UNFORGIVEN (feat. Nile Rodgers)
+Album: UNFORGIVEN
+Track: 8
+Date: 2023-05-01
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886064
+song_end
+song_begin: LE SSERAFIM - Eve, Psyche & The Bluebeard’s wife.mp3
+Time: 185.568000
+Artist: LE SSERAFIM
+AlbumArtist: LE SSERAFIM
+Title: Eve, Psyche & The Bluebeard’s wife
+Album: UNFORGIVEN
+Track: 10
+Date: 2023-05-01
+Genre: K-Pop Girl Group
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886073
+song_end
+end: kpop
+directory: rap
+mtime: 1701888234
+begin: rap
+song_begin: sdp interlude x my eyes.mp3
+Time: 412.848000
+Format: 48000:24:2
+mtime: 1694083762
+song_end
+song_begin: Mata - Żółte flamastry i grube katechetki.mp3
+Time: 256.079000
+Artist: Mata
+AlbumArtist: Mata
+Title: Żółte flamastry i grube katechetki
+Album: 100 dni do matury
+Track: 10
+Date: 2020-01-17
+Genre: Polish Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888144
+song_end
+song_begin: XXXTENTACION - Jocelyn Flores.mp3
+Time: 119.160000
+Artist: XXXTENTACION
+AlbumArtist: XXXTENTACION
+Title: Jocelyn Flores
+Album: 17
+Track: 2
+Date: 2017-08-25
+Genre: Emo Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888067
+song_end
+song_begin: XXXTENTACION - Everybody Dies In Their Nightmares.mp3
+Time: 95.496000
+Artist: XXXTENTACION
+AlbumArtist: XXXTENTACION
+Title: Everybody Dies In Their Nightmares
+Album: 17
+Track: 4
+Date: 2017-08-25
+Genre: Emo Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888191
+song_end
+song_begin: XXXTENTACION, Trippie Redd - Fuck Love.mp3
+Time: 146.544000
+Artist: XXXTENTACION/Trippie Redd
+AlbumArtist: XXXTENTACION
+Title: Fuck Love
+Album: 17
+Track: 8
+Date: 2017-08-25
+Genre: Emo Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888152
+song_end
+song_begin: Miguel - Sure Thing.mp3
+Time: 195.408000
+Artist: Miguel
+AlbumArtist: Miguel
+Title: Sure Thing
+Album: All I Want Is You
+Track: 1
+Date: 2010-11-26
+Genre: R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888226
+song_end
+song_begin: Joji - SLOW DANCING IN THE DARK.mp3
+Time: 209.304000
+Artist: Joji
+AlbumArtist: Joji
+Title: SLOW DANCING IN THE DARK
+Album: BALLADS 1
+Track: 2
+Date: 2018-10-26
+Genre: Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888218
+song_end
+song_begin: Joji - YEAH RIGHT.mp3
+Time: 174.384000
+Artist: Joji
+AlbumArtist: Joji
+Title: YEAH RIGHT
+Album: BALLADS 1
+Track: 6
+Date: 2018-10-26
+Genre: Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888162
+song_end
+song_begin: Frank Ocean - Ivy.mp3
+Time: 249.216000
+Artist: Frank Ocean
+AlbumArtist: Frank Ocean
+Title: Ivy
+Album: Blonde
+Track: 2
+Date: 2016-08-20
+Genre: Lgbtq+ Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888209
+song_end
+song_begin: Lana Del Rey - Summertime Sadness.mp3
+Time: 264.816000
+Artist: Lana Del Rey
+AlbumArtist: Lana Del Rey
+Title: Summertime Sadness
+Album: Born To Die (Deluxe Version)
+Track: 11
+Date: 2011-01-01
+Genre: Art Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888124
+song_end
+song_begin: Drake - Trust Issues.mp3
+Time: 281.544000
+Artist: Drake
+AlbumArtist: Drake
+Title: Trust Issues
+Album: Care Package
+Track: 4
+Date: 2019-08-02
+Genre: Canadian Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888178
+song_end
+song_begin: Frank Ocean - Chanel.mp3
+Time: 210.312000
+Artist: Frank Ocean
+AlbumArtist: Frank Ocean
+Title: Chanel
+Album: Chanel
+Track: 1
+Date: 2017-03-10
+Genre: Lgbtq+ Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888178
+song_end
+song_begin: SZA - Awkward.mp3
+Time: 178.032000
+Artist: SZA
+AlbumArtist: SZA
+Title: Awkward
+Album: Ctrl (Deluxe)
+Track: 20
+Date: 2022-06-09
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888204
+song_end
+song_begin: Drake - Chicago Freestyle (feat. Giveon).mp3
+Time: 220.512000
+Artist: Drake/Giveon
+AlbumArtist: Drake
+Title: Chicago Freestyle (feat. Giveon)
+Album: Dark Lane Demo Tapes
+Track: 3
+Date: 2020-05-01
+Genre: Canadian Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888141
+song_end
+song_begin: Drake - Not You Too (feat. Chris Brown).mp3
+Time: 269.712000
+Artist: Drake/Chris Brown
+AlbumArtist: Drake
+Title: Not You Too (feat. Chris Brown)
+Album: Dark Lane Demo Tapes
+Track: 4
+Date: 2020-05-01
+Genre: Canadian Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888233
+song_end
+song_begin: blackbear - idfc.mp3
+Time: 207.072000
+Artist: blackbear
+AlbumArtist: blackbear
+Title: idfc
+Album: dead
+Track: 2
+Date: 2015-06-02
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888130
+song_end
+song_begin: Polo G - Chosen 1.mp3
+Time: 127.224000
+Artist: Polo G
+AlbumArtist: Polo G
+Title: Chosen 1
+Album: Die A Legend
+Track: 10
+Date: 2019-06-07
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888080
+song_end
+song_begin: Kanye West - Moon.mp3
+Time: 156.120000
+Artist: Kanye West
+AlbumArtist: Kanye West
+Title: Moon
+Album: Donda
+Track: 13
+Date: 2021-08-29
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888081
+song_end
+song_begin: charlieonnafriday - Enough.mp3
+Time: 185.304000
+Artist: charlieonnafriday
+AlbumArtist: charlieonnafriday
+Title: Enough
+Album: Enough
+Track: 1
+Date: 2022-08-05
+Genre: Singer-Songwriter Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888065
+song_end
+song_begin: Laufey - Valentine.mp3
+Time: 168.936000
+Artist: Laufey
+AlbumArtist: Laufey
+Title: Valentine
+Album: Everything I Know About Love
+Track: 3
+Date: 2022-08-26
+Genre: Gen Z Singer-Songwriter
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888117
+song_end
+song_begin: Juice WRLD - Cigarettes.mp3
+Time: 227.568000
+Artist: Juice WRLD
+AlbumArtist: Juice WRLD
+Title: Cigarettes
+Album: Fighting Demons (Deluxe)
+Track: 3
+Date: 2022-03-18
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888157
+song_end
+song_begin: Kendrick Lamar, Jay Rock - Money Trees.mp3
+Time: 386.952000
+Artist: Kendrick Lamar/Jay Rock
+AlbumArtist: Kendrick Lamar
+Title: Money Trees
+Album: good kid, m.A.A.d city
+Track: 5
+Date: 2012
+Genre: Conscious Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888053
+song_end
+song_begin: Juice WRLD - Lucid Dreams.mp3
+Time: 239.880000
+Artist: Juice WRLD
+AlbumArtist: Juice WRLD
+Title: Lucid Dreams
+Album: Goodbye & Good Riddance
+Track: 3
+Date: 2018-12-10
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888116
+song_end
+song_begin: Kanye West - I Wonder.mp3
+Time: 243.480000
+Artist: Kanye West
+AlbumArtist: Kanye West
+Title: I Wonder
+Album: Graduation
+Track: 4
+Date: 2007-09-11
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888162
+song_end
+song_begin: Metro Boomin - Creepin' (with The Weeknd & 21 Savage).mp3
+Time: 221.544000
+Artist: Metro Boomin/The Weeknd/21 Savage
+AlbumArtist: Metro Boomin
+Title: Creepin' (with The Weeknd & 21 Savage)
+Album: HEROES & VILLAINS
+Track: 10
+Date: 2022-12-02
+Genre: Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888052
+song_end
+song_begin: A$AP Rocky - I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino).mp3
+Time: 190.320000
+Artist: A$AP Rocky/Imogen Heap/Clams Casino
+AlbumArtist: A$AP Rocky
+Title: I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)
+Album: I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)
+Track: 1
+Date: 2023-08-18
+Genre: East Coast Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888191
+song_end
+song_begin: Clairo - Sofia.mp3
+Time: 188.424000
+Artist: Clairo
+AlbumArtist: Clairo
+Title: Sofia
+Album: Immunity
+Track: 7
+Date: 2019-08-02
+Genre: Bedroom Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888105
+song_end
+song_begin: Joji - worldstar money (interlude).mp3
+Time: 126.360000
+Artist: Joji
+AlbumArtist: Joji
+Title: worldstar money (interlude)
+Album: In Tongues (Deluxe)
+Track: 6
+Date: 2018-02-14
+Genre: Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888191
+song_end
+song_begin: Juice WRLD - Let Me Know (I Wonder Why Freestyle).mp3
+Time: 215.424000
+Artist: Juice WRLD
+AlbumArtist: Juice WRLD
+Title: Let Me Know (I Wonder Why Freestyle)
+Album: Let Me Know (I Wonder Why Freestyle)
+Track: 1
+Date: 2019-12-07
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888063
+song_end
+song_begin: Dawid Podsiadło - Let You Down.mp3
+Time: 226.440000
+Artist: Dawid Podsiadło
+AlbumArtist: Dawid Podsiadło
+Title: Let You Down
+Album: Let You Down
+Track: 1
+Date: 2022-09-12
+Genre: Polish Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888170
+song_end
+song_begin: Ice Cube - You Know How We Do It.mp3
+Time: 232.800000
+Artist: Ice Cube
+AlbumArtist: Ice Cube
+Title: You Know How We Do It
+Album: Lethal Injection
+Track: 4
+Date: 1993-12-07
+Genre: Conscious Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888180
+song_end
+song_begin: Tom Odell - Another Love.mp3
+Time: 251.016000
+Artist: Tom Odell
+AlbumArtist: Tom Odell
+Title: Another Love
+Album: Long Way Down
+Track: 3
+Date: 2013-06-17
+Genre: Chill Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888183
+song_end
+song_begin: John Legend - All of Me.mp3
+Time: 269.592000
+Artist: John Legend
+AlbumArtist: John Legend
+Title: All of Me
+Album: Love In The Future (Expanded Edition)
+Track: 6
+Date: 2013-08-30
+Genre: Neo Soul
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888238
+song_end
+song_begin: itssvd, CORBAL, Shiloh Dynasty, Dibyo - Losing Interest.mp3
+Time: 120.576000
+Artist: itssvd/CORBAL/Shiloh Dynasty/Dibyo
+AlbumArtist: itssvd
+Title: Losing Interest
+Album: Missing
+Track: 2
+Date: 2017-02-12
+Genre: Lo-Fi Chill
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888093
+song_end
+song_begin: Kanye West, Pusha T - Runaway.mp3
+Time: 547.776000
+Artist: Kanye West/Pusha T
+AlbumArtist: Kanye West
+Title: Runaway
+Album: My Beautiful Dark Twisted Fantasy
+Track: 9
+Date: 2010-11-22
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888206
+song_end
+song_begin: The Weeknd, Gesaffelstein - I Was Never There.mp3
+Time: 241.104000
+Artist: The Weeknd/Gesaffelstein
+AlbumArtist: The Weeknd
+Title: I Was Never There
+Album: My Dear Melancholy,
+Track: 4
+Date: 2018-03-30
+Genre: Canadian Contemporary R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888092
+song_end
+song_begin: j-hope - on the street (with J. Cole).mp3
+Time: 214.728000
+Artist: j-hope/J. Cole
+AlbumArtist: j-hope
+Title: on the street (with J. Cole)
+Album: on the street (with J. Cole)
+Track: 1
+Date: 2023-03-03
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888165
+song_end
+song_begin: PARTYNEXTDOOR - Break from Toronto.mp3
+Time: 99.240000
+Artist: PARTYNEXTDOOR
+AlbumArtist: PARTYNEXTDOOR
+Title: Break from Toronto
+Album: PARTYNEXTDOOR
+Track: 6
+Date: 2013-07-01
+Genre: R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888219
+song_end
+song_begin: Beach Weather - Sex, Drugs, Etc..mp3
+Time: 196.824000
+Artist: Beach Weather
+AlbumArtist: Beach Weather
+Title: Sex, Drugs, Etc.
+Album: Pineapple Sunrise
+Track: 11
+Date: 2023-03-03
+Genre: Pov: Indie
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888127
+song_end
+song_begin: Kali Uchis - Moonlight.mp3
+Time: 187.752000
+Artist: Kali Uchis
+AlbumArtist: Kali Uchis
+Title: Moonlight
+Album: Red Moon In Venus
+Track: 14
+Date: 2023-03-03
+Genre: Colombian Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888130
+song_end
+song_begin: d4vd - Romantic Homicide.mp3
+Time: 132.672000
+Artist: d4vd
+AlbumArtist: d4vd
+Title: Romantic Homicide
+Album: Romantic Homicide
+Track: 1
+Date: 2022-07-20
+Genre: Bedroom Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888148
+song_end
+song_begin: Hotel Ugly - Shut up My Moms Calling - (Sped Up).mp3
+Time: 135.576000
+Artist: Hotel Ugly
+AlbumArtist: Hotel Ugly
+Title: Shut up My Moms Calling - (Sped Up)
+Album: Shut up My Moms Calling (Sped up)
+Track: 1
+Date: 2022-09-14
+Genre: Modern Indie Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888202
+song_end
+song_begin: Joji - Glimpse of Us.mp3
+Time: 233.496000
+Artist: Joji
+AlbumArtist: Joji
+Title: Glimpse of Us
+Album: SMITHEREENS
+Track: 1
+Date: 2022-11-04
+Genre: Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888105
+song_end
+song_begin: Joji - Die For You.mp3
+Time: 211.704000
+Artist: Joji
+AlbumArtist: Joji
+Title: Die For You
+Album: SMITHEREENS
+Track: 3
+Date: 2022-11-04
+Genre: Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888136
+song_end
+song_begin: Juice WRLD - Hide (feat. Seezyn).mp3
+Time: 205.824000
+Artist: Juice WRLD/Seezyn
+AlbumArtist: Various Artists
+Title: Hide (feat. Seezyn)
+Album: Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)
+Track: 7
+Date: 2018-12-14
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888217
+song_end
+song_begin: Kenya Grace - Strangers.mp3
+Time: 172.992000
+Artist: Kenya Grace
+AlbumArtist: Kenya Grace
+Title: Strangers
+Album: Strangers
+Track: 1
+Date: 2023-09-01
+Genre: Singer-Songwriter Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888076
+song_end
+song_begin: Bryson Tiller - Don't.mp3
+Time: 198.336000
+Artist: Bryson Tiller
+AlbumArtist: Bryson Tiller
+Title: Don't
+Album: T R A P S O U L
+Track: 5
+Date: 2015-10-02
+Genre: Kentucky Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888147
+song_end
+song_begin: Polo G - 21.mp3
+Time: 163.824000
+Artist: Polo G
+AlbumArtist: Polo G
+Title: 21
+Album: THE GOAT
+Track: 6
+Date: 2020-05-15
+Genre: Chicago Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888051
+song_end
+song_begin: J. Cole - i n t e r l u d e.mp3
+Time: 133.056000
+Artist: J. Cole
+AlbumArtist: J. Cole
+Title: i n t e r l u d e
+Album: The Off-Season
+Track: 9
+Date: 2021-05-14
+Genre: Conscious Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888051
+song_end
+song_begin: GREY D, tlinh - vaicaunoicokhiennguoithaydoi.mp3
+Time: 3685.920000
+Artist: GREY D/tlinh
+AlbumArtist: GREY D
+Title: vaicaunoicokhiennguoithaydoi
+Album: vaicaunoicokhiennguoithaydoi
+Track: 1
+Date: 2022-06-20
+Genre: V-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888118
+song_end
+song_begin: Shiloh Dynasty, Timmies - Again.mp3
+Time: 157.248000
+Artist: Shiloh Dynasty/Timmies
+AlbumArtist: Timmies
+Title: Again
+Album: Vivid Pictures
+Track: 1
+Date: 2018-03-13
+Genre: Lo-Fi Chill
+Disc: 1
+Format: 48000:24:2
+mtime: 1701888064
+song_end
+end: rap
+directory: vajb✨
+mtime: 1701887051
+begin: vajb✨
+song_begin: Lizzo - About Damn Time.mp3
+Time: 36099.168000
+Artist: Lizzo
+AlbumArtist: Lizzo
+Title: About Damn Time
+Album: About Damn Time
+Track: 1
+Date: 2022-04-14
+Genre: Escape Room
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887432
+song_end
+song_begin: Kim Petras - Alone (with Nicki Minaj).mp3
+Time: 185.160000
+Artist: Kim Petras/Nicki Minaj
+AlbumArtist: Kim Petras
+Title: Alone (with Nicki Minaj)
+Album: Alone
+Track: 1
+Date: 2023-04-21
+Genre: Alt Z
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886608
+song_end
+song_begin: Beyoncé - AMERICA HAS A PROBLEM (feat. Kendrick Lamar).mp3
+Time: 261.000000
+Artist: Beyoncé/Kendrick Lamar
+AlbumArtist: Beyoncé
+Title: AMERICA HAS A PROBLEM (feat. Kendrick Lamar)
+Album: AMERICA HAS A PROBLEM (feat. Kendrick Lamar)
+Track: 1
+Date: 2023-05-19
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886965
+song_end
+song_begin: SNOW WIFE - AMERICAN HORROR SHOW.mp3
+Time: 149.424000
+Artist: SNOW WIFE
+AlbumArtist: SNOW WIFE
+Title: AMERICAN HORROR SHOW
+Album: AMERICAN HORROR SHOW
+Track: 1
+Date: 2023-06-23
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886889
+song_end
+song_begin: Kaliii - Area Codes.mp3
+Time: 139.368000
+Artist: Kaliii
+AlbumArtist: Kaliii
+Title: Area Codes
+Album: Area Codes
+Track: 1
+Date: 2023-03-17
+Genre: Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886600
+song_end
+song_begin: Eliza Rose, Interplanetary Criminal - B.O.T.A. (Baddest Of Them All) - Edit.mp3
+Time: 226.656000
+Artist: Eliza Rose/Interplanetary Criminal
+AlbumArtist: Eliza Rose
+Title: B.O.T.A. (Baddest Of Them All) - Edit
+Album: B.O.T.A. (Baddest Of Them All)
+Track: 1
+Date: 2022-08-12
+Genre: House
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886845
+song_end
+song_begin: Nicki Minaj, Ice Spice - Barbie World (with Aqua) [From Barbie The Album].mp3
+Time: 36000.288000
+Artist: Nicki Minaj/Ice Spice/Aqua
+AlbumArtist: Nicki Minaj
+Title: Barbie World (with Aqua) [From Barbie The Album]
+Album: Barbie World (with Aqua) [From Barbie The Album]
+Track: 1
+Date: 2023-06-23
+Genre: Hip Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887387
+song_end
+song_begin: Saweetie - Best Friend (feat. Doja Cat).mp3
+Time: 155.928000
+Artist: Saweetie/Doja Cat
+AlbumArtist: Saweetie
+Title: Best Friend (feat. Doja Cat)
+Album: Best Friend (feat. Doja Cat)
+Track: 1
+Date: 2021-01-07
+Genre: Cali Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887000
+song_end
+song_begin: Rihanna - Bitch Better Have My Money.mp3
+Time: 219.336000
+Artist: Rihanna
+AlbumArtist: Rihanna
+Title: Bitch Better Have My Money
+Album: Bitch Better Have My Money
+Track: 1
+Date: 2015-03-26
+Genre: Barbadian Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886832
+song_end
+song_begin: Britney Spears - Gimme More.mp3
+Time: 250.632000
+Artist: Britney Spears
+AlbumArtist: Britney Spears
+Title: Gimme More
+Album: Blackout
+Track: 1
+Date: 2007-10-25
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886739
+song_end
+song_begin: Cardi B - Bongos (feat. Megan Thee Stallion).mp3
+Time: 175.128000
+Artist: Cardi B/Megan Thee Stallion
+AlbumArtist: Cardi B
+Title: Bongos (feat. Megan Thee Stallion)
+Album: Bongos (feat. Megan Thee Stallion)
+Track: 1
+Date: 2023-09-08
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886616
+song_end
+song_begin: BLACKPINK - Shut Down.mp3
+Time: 175.920000
+Artist: BLACKPINK
+AlbumArtist: BLACKPINK
+Title: Shut Down
+Album: BORN PINK
+Track: 2
+Date: 2022-09-16
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886980
+song_end
+song_begin: Doja Cat - Boss Bitch.mp3
+Time: 134.280000
+Artist: Doja Cat
+AlbumArtist: Doja Cat
+Title: Boss Bitch
+Album: Boss Bitch
+Track: 1
+Date: 2020-01-23
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886806
+song_end
+song_begin: PinkPantheress, Ice Spice - Boy's a liar Pt. 2.mp3
+Time: 131.039000
+Artist: PinkPantheress/Ice Spice
+AlbumArtist: PinkPantheress
+Title: Boy's a liar Pt. 2
+Album: Boy's a liar Pt. 2
+Track: 1
+Date: 2023-02-03
+Genre: Bedroom Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886685
+song_end
+song_begin: Dove Cameron - Breakfast.mp3
+Time: 148.512000
+Artist: Dove Cameron
+AlbumArtist: Dove Cameron
+Title: Breakfast
+Album: Breakfast
+Track: 1
+Date: 2022-06-24
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886927
+song_end
+song_begin: PinkPantheress - Capable of love.mp3
+Time: 223.704000
+Artist: PinkPantheress
+AlbumArtist: PinkPantheress
+Title: Capable of love
+Album: Capable of love
+Track: 1
+Date: 2023-10-12
+Genre: Bedroom Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886663
+song_end
+song_begin: Ashnikko - Slumber Party (feat. Princess Nokia).mp3
+Time: 178.440000
+Artist: Ashnikko/Princess Nokia
+AlbumArtist: Ashnikko
+Title: Slumber Party (feat. Princess Nokia)
+Album: DEMIDEVIL
+Track: 4
+Date: 2021-01-15
+Genre: Alt Z
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886950
+song_end
+song_begin: Doja Cat - Demons.mp3
+Time: 195.600000
+Artist: Doja Cat
+AlbumArtist: Doja Cat
+Title: Demons
+Album: Demons
+Track: 1
+Date: 2023-08-31
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886678
+song_end
+song_begin: ROSALÍA - DESPECHÁ.mp3
+Time: 156.816000
+Artist: ROSALÍA
+AlbumArtist: ROSALÍA
+Title: DESPECHÁ
+Album: DESPECHÁ
+Track: 1
+Date: 2022-07-28
+Genre: Latin Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886750
+song_end
+song_begin: Miley Cyrus - Flowers.mp3
+Time: 200.496000
+Artist: Miley Cyrus
+AlbumArtist: Miley Cyrus
+Title: Flowers
+Album: Endless Summer Vacation
+Track: 1
+Date: 2023-08-18
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886656
+song_end
+song_begin: Tate McRae - greedy.mp3
+Time: 131.904000
+Artist: Tate McRae
+AlbumArtist: Tate McRae
+Title: greedy
+Album: greedy
+Track: 1
+Date: 2023-09-15
+Genre: Alt Z
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886589
+song_end
+song_begin: Sexyy Red - SkeeYee.mp3
+Time: 157.152000
+Artist: Sexyy Red
+AlbumArtist: Sexyy Red
+Title: SkeeYee
+Album: Hood Hottest Princess
+Track: 2
+Date: 2023-06-09
+Genre: Trap Queen
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886818
+song_end
+song_begin: Mae Stephens - If We Ever Broke Up.mp3
+Time: 142.800000
+Artist: Mae Stephens
+AlbumArtist: Mae Stephens
+Title: If We Ever Broke Up
+Album: If We Ever Broke Up
+Track: 1
+Date: 2023-02-10
+Genre: Singer-Songwriter Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886739
+song_end
+song_begin: Ice Spice - In Ha Mood.mp3
+Time: 129.407000
+Artist: Ice Spice
+AlbumArtist: Ice Spice
+Title: In Ha Mood
+Album: In Ha Mood
+Track: 1
+Date: 2023-01-06
+Genre: Bronx Drill
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886875
+song_end
+song_begin: Aliyah's Interlude - IT GIRL.mp3
+Time: 161.784000
+Artist: Aliyah's Interlude
+AlbumArtist: Aliyah's Interlude
+Title: IT GIRL
+Album: IT GIRL
+Track: 1
+Date: 2023-09-30
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886598
+song_end
+song_begin: SZA - Kill Bill (feat. Doja Cat).mp3
+Time: 175.872000
+Artist: SZA/Doja Cat
+AlbumArtist: SZA
+Title: Kill Bill (feat. Doja Cat)
+Album: Kill Bill (feat. Doja Cat)
+Track: 1
+Date: 2023-04-14
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887007
+song_end
+song_begin: LISA - MONEY.mp3
+Time: 168.264000
+Artist: LISA
+AlbumArtist: LISA
+Title: MONEY
+Album: LALISA
+Track: 2
+Date: 2021-09-10
+Genre: K-Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886841
+song_end
+song_begin: Nicki Minaj - Last Time I Saw You.mp3
+Time: 216.384000
+Artist: Nicki Minaj
+AlbumArtist: Nicki Minaj
+Title: Last Time I Saw You
+Album: Last Time I Saw You
+Track: 1
+Date: 2023-09-01
+Genre: Hip Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886857
+song_end
+song_begin: Ice Spice - Deli.mp3
+Time: 126.888000
+Artist: Ice Spice
+AlbumArtist: Ice Spice
+Title: Deli
+Album: Like..? (Deluxe)
+Track: 3
+Date: 2023-07-21
+Genre: Bronx Drill
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886602
+song_end
+song_begin: CHINCHILLA - Little Girl Gone.mp3
+Time: 188.640000
+Artist: CHINCHILLA
+AlbumArtist: CHINCHILLA
+Title: Little Girl Gone
+Album: Little Girl Gone
+Track: 1
+Date: 2023-09-01
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886896
+song_end
+song_begin: Nelly Furtado - Maneater.mp3
+Time: 3600.048000
+Artist: Nelly Furtado
+AlbumArtist: Nelly Furtado
+Title: Maneater
+Album: Loose
+Track: 2
+Date: 2006-01-01
+Genre: Canadian Latin
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886781
+song_end
+song_begin: M.I.A. - Bad Girls.mp3
+Time: 227.544000
+Artist: M.I.A.
+AlbumArtist: M.I.A.
+Title: Bad Girls
+Album: Matangi
+Track: 8
+Date: 2013-01-01
+Genre: Escape Room
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886924
+song_end
+song_begin: Kali Uchis - Moonlight.mp3
+Time: 187.752000
+Artist: Kali Uchis
+AlbumArtist: Kali Uchis
+Title: Moonlight
+Album: Moonlight
+Track: 1
+Date: 2023-02-24
+Genre: Colombian Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886641
+song_end
+song_begin: RAYE, 070 Shake - Escapism..mp3
+Time: 272.400000
+Artist: RAYE/070 Shake
+AlbumArtist: RAYE
+Title: Escapism.
+Album: My 21st Century Blues
+Track: 5
+Date: 2023-02-03
+Genre: Uk Contemporary R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886656
+song_end
+song_begin: Mary J. Blige - Family Affair.mp3
+Time: 265.896000
+Artist: Mary J. Blige
+AlbumArtist: Mary J. Blige
+Title: Family Affair
+Album: No More Drama
+Track: 2
+Date: 2001-08-28
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886808
+song_end
+song_begin: Victoria Monét - On My Mama.mp3
+Time: 186.720000
+Artist: Victoria Monét
+AlbumArtist: Victoria Monét
+Title: On My Mama
+Album: On My Mama
+Track: 1
+Date: 2023-06-16
+Genre: Alternative R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886953
+song_end
+song_begin: Doja Cat - Paint The Town Red.mp3
+Time: 230.520000
+Artist: Doja Cat
+AlbumArtist: Doja Cat
+Title: Paint The Town Red
+Album: Paint The Town Red
+Track: 1
+Date: 2023-08-04
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886590
+song_end
+song_begin: Coi Leray - Players.mp3
+Time: 138.792000
+Artist: Coi Leray
+AlbumArtist: Coi Leray
+Title: Players
+Album: Players
+Track: 1
+Date: 2022-11-30
+Genre: New Jersey Underground Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886822
+song_end
+song_begin: cassö, RAYE, D-Block Europe - Prada.mp3
+Time: 132.384000
+Artist: cassö/RAYE/D-Block Europe
+AlbumArtist: cassö
+Title: Prada
+Album: Prada
+Track: 1
+Date: 2023-08-11
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886587
+song_end
+song_begin: Ice Spice - Princess Diana (with Nicki Minaj).mp3
+Time: 3883.008000
+Artist: Ice Spice/Nicki Minaj
+AlbumArtist: Ice Spice
+Title: Princess Diana (with Nicki Minaj)
+Album: Princess Diana (with Nicki Minaj)
+Track: 1
+Date: 2023-04-14
+Genre: Bronx Drill
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886843
+song_end
+song_begin: Latto - Put It On Da Floor Again (feat. Cardi B).mp3
+Time: 185.784000
+Artist: Latto/Cardi B
+AlbumArtist: Latto
+Title: Put It On Da Floor Again (feat. Cardi B)
+Album: Put It On Da Floor Again (feat. Cardi B)
+Track: 1
+Date: 2023-06-02
+Genre: Trap Queen
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886978
+song_end
+song_begin: Nicki Minaj - Red Ruby Da Sleeze.mp3
+Time: 214.488000
+Artist: Nicki Minaj
+AlbumArtist: Nicki Minaj
+Title: Red Ruby Da Sleeze
+Album: Red Ruby Da Sleeze
+Track: 1
+Date: 2023-03-03
+Genre: Hip Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886941
+song_end
+song_begin: Beyoncé - ALIEN SUPERSTAR.mp3
+Time: 215.496000
+Artist: Beyoncé
+AlbumArtist: Beyoncé
+Title: ALIEN SUPERSTAR
+Album: RENAISSANCE
+Track: 3
+Date: 2022-07-29
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886670
+song_end
+song_begin: Beyoncé - CUFF IT.mp3
+Time: 225.432000
+Artist: Beyoncé
+AlbumArtist: Beyoncé
+Title: CUFF IT
+Album: RENAISSANCE
+Track: 4
+Date: 2022-07-29
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886612
+song_end
+song_begin: Beyoncé - SUMMER RENAISSANCE.mp3
+Time: 274.032000
+Artist: Beyoncé
+AlbumArtist: Beyoncé
+Title: SUMMER RENAISSANCE
+Album: RENAISSANCE
+Track: 16
+Date: 2022-07-29
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887021
+song_end
+song_begin: Amaarae - SAD GIRLZ LUV MONEY Remix (feat. Kali Uchis and Moliy).mp3
+Time: 204.792000
+Artist: Amaarae/Kali Uchis/Moliy
+AlbumArtist: Amaarae
+Title: SAD GIRLZ LUV MONEY Remix (feat. Kali Uchis and Moliy)
+Album: SAD GIRLZ LUV MONEY Remix (feat. Kali Uchis and Moliy)
+Track: 1
+Date: 2021-09-16
+Genre: Afro R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886874
+song_end
+song_begin: Doja Cat - Agora Hills.mp3
+Time: 265.392000
+Artist: Doja Cat
+AlbumArtist: Doja Cat
+Title: Agora Hills
+Album: Scarlet
+Track: 10
+Date: 2023-09-22
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886671
+song_end
+song_begin: Bizarrap - Shakira- Bzrp Music Sessions, Vol. 53.mp3
+Time: 214.992000
+Artist: Bizarrap/Shakira
+AlbumArtist: Bizarrap
+Title: Shakira: Bzrp Music Sessions, Vol. 53
+Album: Shakira: Bzrp Music Sessions, Vol. 53
+Track: 1
+Date: 2023-01-11
+Genre: Argentine Hip Hop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886676
+song_end
+song_begin: Timbaland, Keri Hilson, D.O.E. - The Way I Are.mp3
+Time: 179.160000
+Artist: Timbaland/Keri Hilson/D.O.E.
+AlbumArtist: Timbaland
+Title: The Way I Are
+Album: Shock Value
+Track: 4
+Date: 2007-01-01
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886727
+song_end
+song_begin: SZA - Kill Bill.mp3
+Time: 153.984000
+Artist: SZA
+AlbumArtist: SZA
+Title: Kill Bill
+Album: SOS
+Track: 2
+Date: 2022-12-09
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886691
+song_end
+song_begin: Charli XCX - Speed Drive (From Barbie The Album).mp3
+Time: 117.840000
+Artist: Charli XCX
+AlbumArtist: Charli XCX
+Title: Speed Drive (From Barbie The Album)
+Album: Speed Drive (From Barbie The Album)
+Track: 1
+Date: 2023-06-29
+Genre: Art Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886616
+song_end
+song_begin: Kenya Grace - Strangers.mp3
+Time: 172.992000
+Artist: Kenya Grace
+AlbumArtist: Kenya Grace
+Title: Strangers
+Album: Strangers
+Track: 1
+Date: 2023-09-01
+Genre: Singer-Songwriter Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886587
+song_end
+song_begin: Nicki Minaj - Super Freaky Girl.mp3
+Time: 171.024000
+Artist: Nicki Minaj
+AlbumArtist: Nicki Minaj
+Title: Super Freaky Girl
+Album: Super Freaky Girl
+Track: 1
+Date: 2022-08-12
+Genre: Hip Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886905
+song_end
+song_begin: Megan Thee Stallion, Dua Lipa - Sweetest Pie.mp3
+Time: 201.360000
+Artist: Megan Thee Stallion/Dua Lipa
+AlbumArtist: Megan Thee Stallion
+Title: Sweetest Pie
+Album: Sweetest Pie
+Track: 1
+Date: 2022-03-11
+Genre: Houston Rap
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886966
+song_end
+song_begin: Kylie Minogue - Padam Padam.mp3
+Time: 166.296000
+Artist: Kylie Minogue
+AlbumArtist: Kylie Minogue
+Title: Padam Padam
+Album: Tension (Deluxe)
+Track: 1
+Date: 2023-09-22
+Genre: Australian Dance
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886990
+song_end
+song_begin: Lily-Rose Depp - World Class Sinner  I’m A Freak.mp3
+Time: 199.320000
+Artist: Lily-Rose Depp
+AlbumArtist: The Weeknd
+Title: World Class Sinner / I’m A Freak
+Album: The Idol Episode 1 (Music from the HBO Original Series)
+Track: 2
+Date: 2023-06-09
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887012
+song_end
+song_begin: ROSALÍA - TUYA.mp3
+Time: 154.584000
+Artist: ROSALÍA
+AlbumArtist: ROSALÍA
+Title: TUYA
+Album: TUYA
+Track: 1
+Date: 2023-06-08
+Genre: Latin Viral Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886937
+song_end
+song_begin: Anne-Marie - UNHEALTHY (feat. Shania Twain).mp3
+Time: 149.688000
+Artist: Anne-Marie/Shania Twain
+AlbumArtist: Anne-Marie
+Title: UNHEALTHY (feat. Shania Twain)
+Album: UNHEALTHY (feat. Shania Twain)
+Track: 1
+Date: 2023-05-18
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886911
+song_end
+song_begin: Sam Smith - Unholy (feat. Kim Petras).mp3
+Time: 156.984000
+Artist: Sam Smith/Kim Petras
+AlbumArtist: Sam Smith
+Title: Unholy (feat. Kim Petras)
+Album: Unholy (feat. Kim Petras)
+Track: 1
+Date: 2022-09-22
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886709
+song_end
+song_begin: Cardi B - Up.mp3
+Time: 156.984000
+Artist: Cardi B
+AlbumArtist: Cardi B
+Title: Up
+Album: Up
+Track: 1
+Date: 2021-02-05
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701887054
+song_end
+song_begin: Doja Cat - Vegas (From the Original Motion Picture Soundtrack ELVIS).mp3
+Time: 182.952000
+Artist: Doja Cat
+AlbumArtist: Doja Cat
+Title: Vegas (From the Original Motion Picture Soundtrack ELVIS)
+Album: Vegas (From the Original Motion Picture Soundtrack ELVIS)
+Track: 1
+Date: 2022-05-06
+Genre: Dance Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886861
+song_end
+song_begin: Jax - Victoria's Secret.mp3
+Time: 176.160000
+Artist: Jax
+AlbumArtist: Jax
+Title: Victoria's Secret
+Album: Victoria’s Secret
+Track: 1
+Date: 2022-06-30
+Genre: Gen Z Singer-Songwriter
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886993
+song_end
+song_begin: Cardi B - WAP (feat. Megan Thee Stallion).mp3
+Time: 187.584000
+Artist: Cardi B/Megan Thee Stallion
+AlbumArtist: Cardi B
+Title: WAP (feat. Megan Thee Stallion)
+Album: WAP (feat. Megan Thee Stallion)
+Track: 1
+Date: 2020-08-07
+Genre: Pop
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886793
+song_end
+song_begin: Tyla - Water.mp3
+Time: 200.280000
+Artist: Tyla
+AlbumArtist: Tyla
+Title: Water
+Album: Water
+Track: 1
+Date: 2023-07-28
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886628
+song_end
+song_begin: Doechii - What It Is (Solo Version).mp3
+Time: 189.864000
+Artist: Doechii
+AlbumArtist: Doechii
+Title: What It Is (Solo Version)
+Album: What It Is (Versions)
+Track: 2
+Date: 2023-03-17
+Genre: Alternative R&B
+Disc: 1
+Format: 48000:24:2
+mtime: 1701886700
+song_end
+end: vajb✨

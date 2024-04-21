@@ -71,8 +71,8 @@ in
   services.xserver.displayManager.defaultSession = "none+bspwm";
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.desktopManager.plasma5.enable = true;
   services.xserver.windowManager.bspwm.enable = true;
   services.xserver.windowManager.bspwm.configFile = "/home/peat/.config/bspwm/bspwmrc";
   services.xserver.windowManager.bspwm.sxhkd.configFile = "/home/peat/.config/sxhkd/sxkdrc";
@@ -110,6 +110,7 @@ in
 
   # Enable touchpad support (enabled default in most desktopManager).
   services.xserver.libinput.enable = true;
+  services.xserver.libinput.touchpad.disableWhileTyping = true;
 
   environment.sessionVariables = rec {
     XDG_CACHE_HOME  = "$HOME/.cache";
@@ -193,6 +194,8 @@ in
     # Optionally, you may need to select the appropriate driver version for your specific GPU.
     package = config.boot.kernelPackages.nvidiaPackages.stable;
   };
+  #turn on latest linux kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
 
   # List packages installed in system profile. To search, run:
@@ -243,9 +246,9 @@ in
     xfce.tumbler
     notion-app-enhanced
     vencord
-    #(pkgs.discord.override{
-    #withVencord = false;
-    #})
+    (pkgs.discord.override{
+    withVencord = false;
+    })
     xclip
     ripgrep
     lxappearance
@@ -258,7 +261,7 @@ in
       sha256 = "iVIyj8Hp4Ed6FUrPHK1RMgCRPcI2alRFi9xdficYPGQ=";
     };
     #Make sure you include whatever dependencies the fork needs to build properly!
-    buildInputs = oldAttrs.buildInputs ++ [ harfbuzz pkgconfig xorg.libX11 xorg.libXft fontconfig gd glib ];
+    buildInputs = oldAttrs.buildInputs ++ [ harfbuzz pkg-config xorg.libX11 xorg.libXft fontconfig gd glib ];
     configFile = writeText "config.def.h" (builtins.readFile /home/peat/.config/st/st-config.h);
     postPatch = "${oldAttrs.postPatch}\n cp ${configFile} config.def.h";
     }))
@@ -287,8 +290,39 @@ in
     gnome.gnome-tweaks  
     flatpak
     gnome.gnome-software
-    sublime4
+    vscodium
     clang
+    keepassxc
+    imagemagick
+    krita
+    chromium
+    btop
+    pomodoro
+    nodejs_21
+    tree
+    latte-dock
+    cmake
+    libsForQt5.applet-window-appmenu
+    qalculate-gtk
+    nicotine-plus
+    libsForQt5.kdeconnect-kde
+    viewnior
+    playerctl
+    hsetroot
+    maim
+    jq
+    imagemagick
+    i3lock-color
+    xdo
+    giph
+    redshift
+    jgmenu
+    yarn-berry
+    bunnyfetch
+    mommy
+    j4-dmenu-desktop
+    ani-cli
+    melonDS
 ];
 
   programs.slock.enable = true;
@@ -297,6 +331,8 @@ in
     lockerCommand = "/run/wrappers/bin/slock";
   };
   security.wrappers.slock.source = "${pkgs.slock.out}/bin/slock";
+  #enabling kdeconnect
+  programs.kdeconnect.enable = true; 
   
  programs.steam = {
    enable = true;
@@ -312,6 +348,9 @@ in
     	  maple-mono-SC-NF
 	  maple-mono
 	  terminus_font
+	  victor-mono
+	  dm-sans
+	  material-icons
   	];
   };
 

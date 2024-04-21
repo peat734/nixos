@@ -8,30 +8,22 @@ nmcli device wifi connect khicon5G
 polybaren
 #$HOME/.config/eww/bar/launch.sh
 
-#workspaces() {
-#	name=1
-#	for monitor in `bspc query -M`; do
-#		#bspc monitor ${monitor} -n "$name" -d '一' '二' '三' '四' '五' '六' '七'
-#		bspc monitor ${monitor} -n "$name" -d I II III IV V VI VII VIII IX X
-#		let name++
-#	done
-#}
-#workspaces
+workspaces() {
+	name=1
+	for monitor in `bspc query -M`; do
+		bspc monitor ${monitor} -n "$name" -d '一' '二' '三' '四' '五' '六' '七'
+		let name++
+	done
+}
+workspaces
 
-if [[ $(xrandr -q | grep 'DP-1-0 connected') ]]; then
-    #xrandr --output DP-1-0 --primary --mode 1920x1080 --rate 75
-    xrandr --output DP-1-0 --mode 1920x1080 -r 75
-    bspc monitor eDP -d I II III IV V VI VII VIII IX X
-else
-    bspc monitor eDP -d I II III IV V VI VII VIII IX X
-fi
 
 bspc config border_width         3
 bspc config window_gap           10
 bspc config split_ratio          0.50
 
-bspc config focused_border_color "#a7c080"
-bspc config normal_border_color "#1e1e2e"
+bspc config focused_border_color "#101010"
+bspc config normal_border_color "#101010"
 bspc config active_border_color "#e67e80"
 
 bspc config borderless_monocle   true
@@ -51,7 +43,7 @@ for i in ${terminal[@]}; do
 # workspace 2 (Internet Browser)
 declare -a web=(discord spotify)
 for i in ${web[@]}; do
-    bspc rule -a $i desktop='^2' follow=on focus=on; done
+    bspc rule -a $i desktop='^2' follow=on focus=on state=floating; done
 
 # workspace 3 (Files)
 declare -a filem=(Pcmanfm qBittorrent)
@@ -96,6 +88,4 @@ mpd &
 #start asus rog control center
 rog-control-center &
 
-#start sct
-sct &
-
+sct

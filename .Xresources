@@ -1,42 +1,81 @@
 ! special
-*.foreground:   #d3c6aa
-*.background:   #232a2e
-*.cursorColor:  #d3c6aa
+!*.foreground:   #d3c6aa
+!*.background:   #232a2e
+!*.cursorColor:  #d3c6aa
 
 ! black
-*.color0:       #7a8478
-*.color8:       #7a8478
+!*.color0:       #7a8478
+!*.color8:       #7a8478
 
 ! red
-*.color1:       #e67e80
-*.color9:       #e67e80
+!*.color1:       #e67e80
+!*.color9:       #e67e80
 
 ! green
-*.color2:       #a7c080
-*.color10:      #a7c080
+!*.color2:       #a7c080
+!*.color10:      #a7c080
 
 ! yellow
-*.color3:       #dbbc7f
-*.color11:      #dbbc7f
+!*.color3:       #dbbc7f
+!*.color11:      #dbbc7f
 
 ! blue
-*.color4:       #7fbbb3
-*.color12:      #7fbbb3
+!*.color4:       #7fbbb3
+!*.color12:      #7fbbb3
 
 ! magenta
-*.color5:       #d699b6
-*.color13:      #d699b6
+!*.color5:       #d699b6
+!*.color13:      #d699b6
 
 ! cyan
-*.color6:       #83c092
-*.color14:      #83c092
+!*.color6:       #83c092
+!*.color14:      #83c092
 
 ! white
-*.color7:       #d3c6aa
-*.color15:      #d3c6aa
+!*.color7:       #d3c6aa
+!*.color15:      #d3c6aa
+
+
+! special
+*.foreground:   #d4be98
+*.background:   #1d2021
+*.cursorColor:  #ddc7a1
+
+! black
+*.color0:       #141617
+*.color8:       #141617
+
+! red
+*.color1:       #ea6962
+*.color9:       #ea6962
+
+! green
+*.color2:       #a9b665
+*.color10:      #a9b665
+
+! yellow
+*.color3:       #d8a657
+*.color11:      #d8a657
+
+! blue
+*.color4:       #7daea3
+*.color12:      #7daea3
+
+! magenta
+*.color5:       #d3869b
+*.color13:      #d3869b
+
+! cyan
+*.color6:       #89b482
+*.color14:      #89b482
+
+! white
+*.color7:       #ddc7a1
+*.color15:      #ddc7a1
 
 st.font: monospace:size=12:antialias=true:autohint=true
-st.background:       #232a2e
+st.background:       #141617
+!st.background: #101010
 st.depth:		32
 st.letterSpace: 0
 st.lineSpace: 0

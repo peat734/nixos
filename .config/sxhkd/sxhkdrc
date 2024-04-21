@@ -16,13 +16,13 @@ super + Return
 
 # Terminal (floating)
 super + shift + Return
-	kitty
-	#bspc rule -a kitty -o state=floating follow=on center=true rectangle=1600x1000+0-100 && kitty
+	bspc rule -a kitty -o state=floating follow=on center=true rectangle=200x960+0-100 && kitty
+    #kitty
 
 # Open application menu
-ctrl + s
-#    sh $HOME/.config/rofi/scripts/appsmenu.sh
+super + s
      rofi -modi drun,run -show drun 
+#    sh $HOME/.config/rofi/scripts/appsmenu.sh
 #alt tab
 alt + Tab 
     rofi -show window
@@ -47,10 +47,8 @@ ctrl + alt + l
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,e,}
-	{thunar,firefox,code}
-super + shift + d 
-    flatpak run com.discordapp.Discord
+super + shift + {f,w,e,d}
+	{thunar,firefox,code,discord}
 
 ##---------- System Keys ----------##
 
@@ -79,15 +77,16 @@ super + shift + s
 
 # Manage brightness
 XF86MonBrightness{Up,Down}
-    brightnessctl set 5%{+,-}
+    sh $HOME/.local/bin/brightness {--up,--down}
+    #brightnessctl set 5%{+,-}
 
 # Manage Volume
 Manage volume
 XF86Audio{Raise,Lower}Volume
-    pactl set-sink-volume 0 {+,-}5%
+    sh $HOME/.local/bin/volume {--up,--down}
 
 XF86AudioMute
-    sh $HOME/.local/bin/volume mute
+    sh $HOME/.local/bin/volume --toggle
 
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
@@ -110,7 +109,6 @@ ctrl + alt + Escape
 # Quit/Restart bspwm
 ctrl + shift + {q,r}
 	bspc {quit,wm -r}
-	
 # Split horizontal, vertical or cancel
 super + {h,v,q}
 	bspc node -p {east,south,cancel}
