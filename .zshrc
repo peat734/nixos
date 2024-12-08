@@ -131,6 +131,8 @@ alias spotify="spotifyd; spt"
 alias odpal="~/.config/polybar/launch.sh"
 alias oi="cd ~/Documents/programing/OI/XXXI/etap1"
 alias projekt="cd ~/Documents/programing/strona/skibidifortnajt-frontend/"
+alias wwi="cd ~/Documents/programing/wwi2024"
+alias peaclock="peaclock --config-dir ~/.config/peaclock"
 
 # Basic auto/tab complete:
 autoload -U compinit

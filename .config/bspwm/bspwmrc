@@ -1,9 +1,12 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 # Restore wallpaper
 ~/.fehbg
 pgrep -x sxhkd > /dev/null || sxhkd &
 #~/.config/polybar/launch.sh
+if [[ $(xrandr -q | grep 'HDMI-A-0 connected') ]]; then
+    xrandr --output HDMI-A-0 --primary &
+fi
 nmcli device wifi connect khicon5G
 polybaren
 #$HOME/.config/eww/bar/launch.sh
@@ -16,7 +19,6 @@ workspaces() {
 	done
 }
 workspaces
-
 
 bspc config border_width         3
 bspc config window_gap           10

@@ -42,13 +42,16 @@ super + p
 
 # Lockscreen
 ctrl + alt + l
-   slock 
+   sh $HOME/.local/bin/spanie
 
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,e,d}
-	{thunar,firefox,code,discord}
+super + shift + {f,e,d}
+	{thunar,code,discord}
+# Launch browser
+super + shift + w 
+    flatpak run io.github.zen_browser.zen 
 
 ##---------- System Keys ----------##
 

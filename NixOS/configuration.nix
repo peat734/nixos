@@ -4,6 +4,7 @@
 
 { config, pkgs, st, inputs, lib, ... }:
 
+
 let
    nvidia-offload = pkgs.writeShellScriptBin "nvidia-offload" ''
    export __NV_PRIME_RENDER_OFFLOAD=1
@@ -12,6 +13,7 @@ let
    export __VK_LAYER_NV_optimus=NVIDIA_only
    exec -a "$0" "$@"
    '';
+   unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
 in
 
 
@@ -21,7 +23,8 @@ in
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
-
+  #temporary
+  nixpkgs.config.allowBroken = true;
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -37,6 +40,9 @@ in
   # Enable networking
   networking.networkmanager.enable = true;
   networking.networkmanager.wifi.backend= "iwd";
+
+  #enable rog software
+  programs.rog-control-center.enable = true;
 
   # Set your time zone.
   time.timeZone = "Europe/Warsaw";
@@ -71,11 +77,36 @@ in
   services.xserver.displayManager.defaultSession = "none+bspwm";
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.plasma5.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
   services.xserver.windowManager.bspwm.enable = true;
   services.xserver.windowManager.bspwm.configFile = "/home/peat/.config/bspwm/bspwmrc";
   services.xserver.windowManager.bspwm.sxhkd.configFile = "/home/peat/.config/sxhkd/sxkdrc";
+  programs.sway = {
+    enable = true;
+    wrapperFeatures.gtk = true;
+     extraPackages = with pkgs; [
+      swaylock
+      swayidle
+      wl-clipboard
+      wf-recorder
+      mako # notification daemon
+      grim
+      slurp
+      dmenu # Dmenu is the default in the config but i recommend wofi since its wayland native
+    ];
+    extraSessionCommands = ''
+      export SDL_VIDEODRIVER=wayland
+      export QT_QPA_PLATFORM=wayland
+      export QT_WAYLAND_DISABLE_WINDOWDECORATION="1"
+      export _JAVA_AWT_WM_NONREPARENTING=1
+      export MOZ_ENABLE_WAYLAND=1
+    '';
+  };
+   programs.waybar.enable = true;
+
+  # QT
+  qt5.platformTheme = "qt5ct";
 
   # Configure keymap in X11
   services.xserver = {
@@ -88,7 +119,6 @@ in
   services.printing.enable = true;
 
   # Enable sound with pipewire.
-  sound.enable = true;
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
@@ -145,18 +175,28 @@ in
   nixpkgs.config.permittedInsecurePackages = [
                 "openssl-1.1.1w"
               ];
-
- 
+   
   #auto update
-  system.autoUpgrade.enable = true;
-  system.autoUpgrade.allowReboot = true;
-
-
+  #system.autoUpgrade.enable = true;
+  #system.autoUpgrade.allowReboot = true;
+  
+  #managing battery life
+  services.power-profiles-daemon.enable = false;
+  services.auto-cpufreq.enable = true;
+  services.auto-cpufreq.settings = {
+  battery = {
+     	governor = "powersave";
+     	turbo = "never";
+  	};
+  charger = {
+     	governor = "performance";
+     	turbo = "auto";
+  	};
+  };
 
   # Enable OpenGL
   hardware.opengl = {
     enable = true;
-    driSupport = true;
     driSupport32Bit = true;
   };
 
@@ -185,15 +225,15 @@ in
     # https://github.com/NVIDIA/open-gpu-kernel-modules#compatible-gpus 
     # Only available from driver 515.43.04+
     # Do not disable this unless your GPU is unsupported or if you have a good reason to.
-    open = true;
+    open = true; #was true
 
     # Enable the Nvidia settings menu,
 	# accessible via `nvidia-settings`.
     nvidiaSettings = true;
 
     # Optionally, you may need to select the appropriate driver version for your specific GPU.
-    package = config.boot.kernelPackages.nvidiaPackages.stable;
-  };
+    package = config.boot.kernelPackages.nvidiaPackages.beta;
+    };
   #turn on latest linux kernel
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
@@ -204,7 +244,7 @@ in
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
     neofetch
-    neovim
+    unstable.neovim
     #discord
     spotify
     bspwm
@@ -275,18 +315,15 @@ in
     pfetch
     go-sct
     wiki-tui
-    spotify-tui
     spotifyd
     jq
     bc
     nvidia-offload
-    minecraft
     killall
     eww
     cargo
     rustup
     cargo-auditable-cargo-wrapper
-    whatsapp-for-linux
     gnome.gnome-tweaks  
     flatpak
     gnome.gnome-software
@@ -298,7 +335,7 @@ in
     chromium
     btop
     pomodoro
-    nodejs_21
+    nodejs_22
     tree
     latte-dock
     cmake
@@ -323,6 +360,21 @@ in
     j4-dmenu-desktop
     ani-cli
     melonDS
+    peaclock
+    python311Packages.pip
+    gotop
+    emacsPackages.doom
+    tomato-c
+    swayfx
+    zoom
+    vlc
+    prismlauncher
+    lunar-client
+    paperview
+    miru
+    unstable.protonvpn-gui
+    whatsapp-for-linux
+    tetrio-desktop
 ];
 
   programs.slock.enable = true;

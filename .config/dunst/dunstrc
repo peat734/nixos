@@ -3,8 +3,8 @@
     follow = none
     width = 300
     height = 350
-    origin = bottom-center
-    offset = 20x20
+    origin = top-right
+    offset = 20x50
     scale = 0
     notification_limit = 1
     progress_bar = true

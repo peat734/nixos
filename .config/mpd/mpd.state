@@ -1,10 +1,8 @@
-sw_volume: 51
+sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:Visualizer
 audio_device_state:1:lossless
-state: pause
-current: 7
-time: 8.093000
+state: stop
 random: 0
 repeat: 0
 single: 0
@@ -13,12 +11,4 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:kpop/LE SSERAFIM - No Celestial.mp3
-1:kpop/(G)I-DLE - MY BAG.mp3
-2:kpop/(G)I-DLE - I Want That.mp3
-3:kpop/(G)I-DLE - Eyes Roll.mp3
-4:vajb✨/Ice Spice - In Ha Mood.mp3
-5:vajb✨/Ice Spice - Deli.mp3
-6:vajb✨/Ice Spice - In Ha Mood.mp3
-7:rap/Kanye West - I Wonder.mp3
 playlist_end

@@ -3,7 +3,7 @@ These are my configuration files and NixOS configuration
 ![Rice](./Pictures/rices/rice_21_04_2024.png)
 **STUFF THAT I USE**:
 
-- **OS**: [NixOS 23.11 (stable)](https://nixos.org/)
+- **OS**: [NixOS 24.11 (stable)](https://nixos.org/)
 - **WM**: [BSPWM](https://github.com/baskerville/bspwm)
 - **Terminal**: [st (siduck fork)](https://github.com/siduck/st) / [kitty](https://sw.kovidgoyal.net/kitty/)
 - **Shell**: [ZSH](https://github.com/ohmyzsh/ohmyzsh)
