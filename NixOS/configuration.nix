@@ -163,7 +163,6 @@ in
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-      kate
     #  thunderbird
     ];
   };
@@ -232,7 +231,7 @@ in
     nvidiaSettings = true;
 
     # Optionally, you may need to select the appropriate driver version for your specific GPU.
-    package = config.boot.kernelPackages.nvidiaPackages.beta;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
     };
   #turn on latest linux kernel
   boot.kernelPackages = pkgs.linuxPackages_latest;
@@ -243,7 +242,7 @@ in
   environment.systemPackages = with pkgs; [
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
-    neofetch
+    fastfetch
     unstable.neovim
     #discord
     spotify
@@ -275,7 +274,7 @@ in
     slock
     obsidian
     steam
-    gnome.gnome-disk-utility
+    gnome-disk-utility
     bat
     spotdl
     yt-dlp
@@ -285,10 +284,7 @@ in
     papirus-folders
     xfce.tumbler
     notion-app-enhanced
-    vencord
-    (pkgs.discord.override{
-    withVencord = false;
-    })
+    vesktop
     xclip
     ripgrep
     lxappearance
@@ -311,7 +307,7 @@ in
     cbonsai
     gtk4
     sassc
-    gnome.nautilus
+    nautilus
     pfetch
     go-sct
     wiki-tui
@@ -324,9 +320,9 @@ in
     cargo
     rustup
     cargo-auditable-cargo-wrapper
-    gnome.gnome-tweaks  
+    gnome-tweaks  
     flatpak
-    gnome.gnome-software
+    gnome-software
     vscodium
     clang
     keepassxc
@@ -365,16 +361,25 @@ in
     gotop
     emacsPackages.doom
     tomato-c
-    swayfx
+    #swayfx
     zoom
     vlc
     prismlauncher
     lunar-client
     paperview
-    miru
-    unstable.protonvpn-gui
     whatsapp-for-linux
-    tetrio-desktop
+    inputs.ghostty.packages.x86_64-linux.default
+    zed-editor
+    python312Packages.requests
+    python312Packages.selenium
+    uv
+    inputs.zen-browser.packages."${system}".default
+    element-desktop
+    emacs
+    alsa-utils
+    fd
+    clang
+    coreutils
 ];
 
   programs.slock.enable = true;
@@ -391,14 +396,15 @@ in
    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
  };
-
+ services.emacs = {
+ 	enable = true;
+	package = pkgs.emacs;
+ };
 
 
   #fonts
   fonts = {
   	fonts = with pkgs; [
-    	  maple-mono-SC-NF
-	  maple-mono
 	  terminus_font
 	  victor-mono
 	  dm-sans

@@ -11,7 +11,8 @@
 
 # Terminal (alacritty)
 super + Return
-	st
+    st
+#ghostty
 #urxvt
 
 # Terminal (floating)
@@ -48,10 +49,10 @@ ctrl + alt + l
 
 # Launch Apps
 super + shift + {f,e,d}
-	{thunar,code,discord}
+	{thunar,code,vesktop}
 # Launch browser
 super + shift + w 
-    flatpak run io.github.zen_browser.zen 
+    flatpak run app.zen_browser.zen
 
 ##---------- System Keys ----------##
 

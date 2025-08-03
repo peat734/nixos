@@ -8,7 +8,8 @@ repeat: 0
 single: 0
 consume: 0
 crossfade: 0
-mixrampdb: 0.000000
-mixrampdelay: -1.000000
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
 playlist_begin
 playlist_end

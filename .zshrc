@@ -115,6 +115,7 @@ SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
 # Export path
 export PATH=/home/peat/.local/bin:$PATH
+export PATH=~/.emacs.d/bin/:$PATH
 # Aliases
 alias kot="cat"
 alias update="sudo nixos-rebuild --impure switch --upgrade"
@@ -133,6 +134,8 @@ alias oi="cd ~/Documents/programing/OI/XXXI/etap1"
 alias projekt="cd ~/Documents/programing/strona/skibidifortnajt-frontend/"
 alias wwi="cd ~/Documents/programing/wwi2024"
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
+alias neofetch="fastfetch"
+alias emacs="emacs -nw"
 
 # Basic auto/tab complete:
 autoload -U compinit

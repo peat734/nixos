@@ -2,10 +2,14 @@
   
   description = "A very basic flake";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    ghostty = {
+      url = "github:ghostty-org/ghostty";
+    };
+    zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
   };
-  outputs = { self, nixpkgs }@inputs: 
+  outputs = { self, nixpkgs, ghostty, zen-browser }@inputs: 
 
     let
       system = "x86-64-linux";
