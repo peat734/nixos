@@ -2,11 +2,14 @@
   
   description = "A very basic flake";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
     ghostty = {
       url = "github:ghostty-org/ghostty";
     };
-    zen-browser.url = "github:0xc000022070/zen-browser-flake";
+    zen-browser = {
+    	url = "github:0xc000022070/zen-browser-flake";
+	inputs.nixpkgs.follows = "nixpkgs";
+    };
 
   };
   outputs = { self, nixpkgs, ghostty, zen-browser }@inputs: 

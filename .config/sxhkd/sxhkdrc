@@ -11,8 +11,8 @@
 
 # Terminal (alacritty)
 super + Return
-    st
-#ghostty
+    ghostty
+#st
 #urxvt
 
 # Terminal (floating)

@@ -136,6 +136,8 @@ alias wwi="cd ~/Documents/programing/wwi2024"
 alias peaclock="peaclock --config-dir ~/.config/peaclock"
 alias neofetch="fastfetch"
 alias emacs="emacs -nw"
+alias studia="cd ~/Documents/programing/studia/"
+alias arduino="sudo usermod -a -G dialout $USER"
 
 # Basic auto/tab complete:
 autoload -U compinit

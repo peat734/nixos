@@ -77,8 +77,8 @@ in
   services.xserver.displayManager.defaultSession = "none+bspwm";
 
   # Enable the KDE Plasma Desktop Environment.
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.desktopManager.plasma6.enable = true;
   services.xserver.windowManager.bspwm.enable = true;
   services.xserver.windowManager.bspwm.configFile = "/home/peat/.config/bspwm/bspwmrc";
   services.xserver.windowManager.bspwm.sxhkd.configFile = "/home/peat/.config/sxhkd/sxkdrc";
@@ -160,7 +160,7 @@ in
   users.users.peat = {
     isNormalUser = true;
     description = "Nguyen Anh Do";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "dialout"];
     packages = with pkgs; [
       firefox
     #  thunderbird
@@ -234,7 +234,7 @@ in
     package = config.boot.kernelPackages.nvidiaPackages.stable;
     };
   #turn on latest linux kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages;
 
 
   # List packages installed in system profile. To search, run:
@@ -243,7 +243,8 @@ in
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     wget
     fastfetch
-    unstable.neovim
+    #unstable.neovim
+    neovim
     #discord
     spotify
     bspwm
@@ -279,7 +280,6 @@ in
     spotdl
     yt-dlp
     python3
-    python310Packages.pillow
     papirus-icon-theme
     papirus-folders
     xfce.tumbler
@@ -333,12 +333,9 @@ in
     pomodoro
     nodejs_22
     tree
-    latte-dock
     cmake
-    libsForQt5.applet-window-appmenu
     qalculate-gtk
     nicotine-plus
-    libsForQt5.kdeconnect-kde
     viewnior
     playerctl
     hsetroot
@@ -362,12 +359,11 @@ in
     emacsPackages.doom
     tomato-c
     #swayfx
-    zoom
+    zoom-us
     vlc
     prismlauncher
-    lunar-client
+    #lunar-client
     paperview
-    whatsapp-for-linux
     inputs.ghostty.packages.x86_64-linux.default
     zed-editor
     python312Packages.requests
@@ -380,6 +376,19 @@ in
     fd
     clang
     coreutils
+    vscode
+    gnuplot
+    arduino-ide
+    exiftool
+    wiremix
+    yazi
+    ncdu
+    lazygit
+    node-red
+    usbutils
+    lsof
+    claude-code
+    kazam
 ];
 
   programs.slock.enable = true;
